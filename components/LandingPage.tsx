@@ -39,6 +39,7 @@ const Container = styled.div`
   max-width: 1280px;
   padding: 0 16px;
   margin: 0 auto;
+  padding-bottom: 164px;
 
   display: flex;
   gap: 13px;
