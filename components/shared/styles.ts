@@ -7,6 +7,11 @@ export const Title = styled.h1`
   line-height: 60px;
 
   color: #07043b;
+
+  @media (max-width: 600px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -16,6 +21,11 @@ export const Paragraph = styled.p`
   line-height: 24px;
 
   color: #07043b;
+
+  @media (max-width: 520px) {
+    font-size: 14px;
+    line-height: 21px;
+  }
 `;
 
 export const Button = styled.button`

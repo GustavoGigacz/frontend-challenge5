@@ -33,6 +33,10 @@ const LandingPage = (): JSX.Element => {
 
 const Section = styled.section`
   width: 100%;
+
+  @media (max-width: 1040px) {
+    margin-bottom: 90px;
+  }
 `;
 
 const Container = styled.div`

@@ -6,8 +6,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <GlobalStyle />
-      <Component {...pageProps} />
       <Navbar />
+      <Component {...pageProps} />
     </>
   );
 }
