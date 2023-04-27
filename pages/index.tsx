@@ -1,3 +1,4 @@
+import EarlyAcessPage from "@/components/EarlyAcessPage";
 import LandingPage from "@/components/LandingPage";
 import SharedComponents from "@/components/SharedComponents";
 import { Inter } from "next/font/google";
@@ -9,6 +10,7 @@ export default function Home() {
     <>
       <LandingPage />
       <SharedComponents />
+      <EarlyAcessPage />
     </>
   );
 }

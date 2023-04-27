@@ -84,15 +84,20 @@ const CustomParagraph = styled(Paragraph)`
 const ImageContainer = styled.div`
   @media (max-width: 1280px) {
     img {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* img {
       width: 418px;
       height: 310px;
-    }
+    } */
   }
   @media (max-width: 1040px) {
-    img {
+    /* img {
       width: 304px;
       height: 225px;
-    }
+    } */
   }
 `;
 
