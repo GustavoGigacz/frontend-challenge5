@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import GlobalStyle from "@/styles/global";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -8,6 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <GlobalStyle />
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
