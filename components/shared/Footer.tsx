@@ -8,10 +8,10 @@ import FacebookImage from "@/public/FacebookImage.png";
 import TwitterImage from "@/public/TwitterImage.png";
 import InstagramIcon from "@/public/InstagramIcon.png";
 
-const Footer = (): JSX.Element => {
+const FooterComponent = (): JSX.Element => {
   return (
     <>
-      <Section>
+      <Footer>
         <Container>
           <IconContainer>
             <Image src={FooterIcon} alt={""} />
@@ -58,12 +58,12 @@ const Footer = (): JSX.Element => {
             </IconContent>
           </ListContainer>
         </Container>
-      </Section>
+      </Footer>
     </>
   );
 };
 
-const Section = styled.footer`
+const Footer = styled.footer`
   width: 100%;
   background-color: #07043b;
 `;
@@ -128,7 +128,8 @@ const IconContent = styled.div`
 
   @media (max-width: 640px) {
     justify-content: center;
+    padding-bottom: 42px;
   }
 `;
 
-export default Footer;
+export default FooterComponent;
